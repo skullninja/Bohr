@@ -10,6 +10,7 @@
 @interface TableViewController : BOTableViewController
 
 @property (weak, nonatomic) IBOutlet BOTextTableViewCell *textCell;
+@property (weak, nonatomic) IBOutlet BOMultilineTextTableViewCell *mTextCell;
 @property (weak, nonatomic) IBOutlet BOChoiceTableViewCell *choiceCell;
 @property (weak, nonatomic) IBOutlet BOChoiceTableViewCell *choiceDisclosureCell;
 @property (weak, nonatomic) IBOutlet BOButtonTableViewCell *buttonCell;

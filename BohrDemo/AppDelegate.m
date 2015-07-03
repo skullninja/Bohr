@@ -35,6 +35,7 @@
 															  @"choice": @0,
 															  @"choice_2": @2,
 															  @"time": @300,
+                                                              @"multi_text": @"\n\nhello\nworld"
 															  }];
 }
 
