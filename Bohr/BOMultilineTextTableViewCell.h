@@ -26,6 +26,8 @@ typedef void(^BOTextViewInputErrorBlock)(BOMultilineTextTableViewCell *cell, BOT
 /// The text view on the cell.
 @property (nonatomic, strong) UITextView *textView;
 
+@property (nonatomic, strong) UILabel *placeholder;
+
 /// The minimum amount of non-blank characters necessary for the text view.
 @property (nonatomic) IBInspectable NSInteger minimumTextLength;
 
