@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		553E37F71B46527E0000E301 /* BOMultilineTextTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 553E37F51B46527E0000E301 /* BOMultilineTextTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		553E37F91B46527E0000E301 /* BOMultilineTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E37F61B46527E0000E301 /* BOMultilineTextTableViewCell.m */; };
+		555B39201C17B548009EF69C /* BODateTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 555B391E1C17B548009EF69C /* BODateTableViewCell.h */; };
+		555B39211C17B548009EF69C /* BODateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B391F1C17B548009EF69C /* BODateTableViewCell.m */; };
+		555B39241C17B5A6009EF69C /* UILabel+DatePickerCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = 555B39221C17B5A6009EF69C /* UILabel+DatePickerCustomization.h */; };
+		555B39251C17B5A6009EF69C /* UILabel+DatePickerCustomization.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B39231C17B5A6009EF69C /* UILabel+DatePickerCustomization.m */; };
 		754E56501B1B461700075B6E /* BOTableViewCell+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 754E564F1B1B461700075B6E /* BOTableViewCell+Subclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		754E56891B1DFDB400075B6E /* BOSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 754E56871B1DFDB400075B6E /* BOSetting.h */; };
 		754E568A1B1DFDB400075B6E /* BOSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 754E56881B1DFDB400075B6E /* BOSetting.m */; };
@@ -68,6 +72,10 @@
 /* Begin PBXFileReference section */
 		553E37F51B46527E0000E301 /* BOMultilineTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMultilineTextTableViewCell.h; sourceTree = "<group>"; };
 		553E37F61B46527E0000E301 /* BOMultilineTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMultilineTextTableViewCell.m; sourceTree = "<group>"; };
+		555B391E1C17B548009EF69C /* BODateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BODateTableViewCell.h; sourceTree = "<group>"; };
+		555B391F1C17B548009EF69C /* BODateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BODateTableViewCell.m; sourceTree = "<group>"; };
+		555B39221C17B5A6009EF69C /* UILabel+DatePickerCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DatePickerCustomization.h"; sourceTree = "<group>"; };
+		555B39231C17B5A6009EF69C /* UILabel+DatePickerCustomization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DatePickerCustomization.m"; sourceTree = "<group>"; };
 		754E564F1B1B461700075B6E /* BOTableViewCell+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BOTableViewCell+Subclass.h"; sourceTree = "<group>"; };
 		754E56871B1DFDB400075B6E /* BOSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSetting.h; sourceTree = "<group>"; };
 		754E56881B1DFDB400075B6E /* BOSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSetting.m; sourceTree = "<group>"; };
@@ -181,6 +189,8 @@
 				75E02FE21B21F72C009698D3 /* BOTextTableViewCell.m */,
 				754E56931B2083DE00075B6E /* BOTimeTableViewCell.h */,
 				754E56941B2083DE00075B6E /* BOTimeTableViewCell.m */,
+				555B391E1C17B548009EF69C /* BODateTableViewCell.h */,
+				555B391F1C17B548009EF69C /* BODateTableViewCell.m */,
 				754E56A21B20D2FE00075B6E /* BOChoiceTableViewCell.h */,
 				754E56A31B20D2FE00075B6E /* BOChoiceTableViewCell.m */,
 				75B6CE1A1B3756D800DADCBD /* BOOptionTableViewCell.h */,
@@ -193,6 +203,8 @@
 				754E56881B1DFDB400075B6E /* BOSetting.m */,
 				D5F1D8AA1B3A210E004DA018 /* BOSetting+Private.h */,
 				75C7AE011B1AB3280050C8AA /* Supporting Files */,
+				555B39221C17B5A6009EF69C /* UILabel+DatePickerCustomization.h */,
+				555B39231C17B5A6009EF69C /* UILabel+DatePickerCustomization.m */,
 			);
 			path = Bohr;
 			sourceTree = "<group>";
@@ -220,12 +232,14 @@
 				75C7AE211B1AB3480050C8AA /* BOTableViewController.h in Headers */,
 				75E19B441B2BC76100C03FF6 /* BOChoiceTableViewCell.h in Headers */,
 				754E56891B1DFDB400075B6E /* BOSetting.h in Headers */,
+				555B39201C17B548009EF69C /* BODateTableViewCell.h in Headers */,
 				754E568D1B1FC16700075B6E /* BOSwitchTableViewCell.h in Headers */,
 				75B6CE1C1B3756D800DADCBD /* BOOptionTableViewCell.h in Headers */,
 				75C7AE291B1AB42A0050C8AA /* BOTableViewCell.h in Headers */,
 				759E1B001B2BC31700AD8F38 /* BOTimeTableViewCell.h in Headers */,
 				75B6CE1E1B375DCA00DADCBD /* BOButtonTableViewCell.h in Headers */,
 				D5F1D8A91B3A1EF1004DA018 /* BOTableViewController+Private.h in Headers */,
+				555B39241C17B5A6009EF69C /* UILabel+DatePickerCustomization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +360,8 @@
 				754E568A1B1DFDB400075B6E /* BOSetting.m in Sources */,
 				553E37F91B46527E0000E301 /* BOMultilineTextTableViewCell.m in Sources */,
 				75B6CE1F1B375DCA00DADCBD /* BOButtonTableViewCell.m in Sources */,
+				555B39211C17B548009EF69C /* BODateTableViewCell.m in Sources */,
+				555B39251C17B5A6009EF69C /* UILabel+DatePickerCustomization.m in Sources */,
 				754E568E1B1FC16700075B6E /* BOSwitchTableViewCell.m in Sources */,
 				759E1B011B2BC31700AD8F38 /* BOTimeTableViewCell.m in Sources */,
 				75B6CE1D1B3756D800DADCBD /* BOOptionTableViewCell.m in Sources */,
