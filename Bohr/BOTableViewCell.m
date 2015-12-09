@@ -27,7 +27,7 @@
 	if (self.expansionHeight > 0 || self.contentView.subviews.count > 1) {
 		CGFloat yOffset = (self.layoutMargins.top-self.frame.size.height)/2;
         
-        yOffset = 0;
+        yOffset = self.expansionHeight > 0 ? 8 : 0;
 		
 		self.textLabel.frame = CGRectMake(self.textLabel.frame.origin.x, self.textLabel.frame.origin.y+yOffset, self.textLabel.intrinsicContentSize.width, self.textLabel.frame.size.height);
 		self.detailTextLabel.center = CGPointMake(self.detailTextLabel.center.x, self.detailTextLabel.center.y+yOffset);

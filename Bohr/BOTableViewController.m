@@ -66,7 +66,7 @@
     
     BOTableViewCell *cell = (BOTableViewCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
     if ([cell isKindOfClass:[BOTableViewCell class]]) {
-        return rowHeight + ([indexPath isEqual:self.expansionIndexPath] ? [cell expansionHeight] : 0);
+        return [cell expansionHeight] > 0 ? [cell expansionHeight] : rowHeight;
     }
     
     return rowHeight;
